@@ -1,2 +1,2 @@
-# class-work
-Coding written for class.
+# project-1
+Work done for a class project. 
