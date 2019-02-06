@@ -1,0 +1,26 @@
+/*index-stylesheet.css*/
+
+body {
+  font-family: Trebuchet MS;
+  background-color: #242946;
+  color: #D6D6D6;
+}
+
+header {
+  text-align: center;
+
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 50px;
+  text-indent: 20px;
+}
+
+#ingredients {
+  padding-left: 60px;
+}
+
+#Directions {
+  padding-left: 10px;
+}
