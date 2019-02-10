@@ -1,7 +1,7 @@
 /*index-stylesheet.css*/
 
 body {
-  font-family: Trebuchet MS;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
   background-color: #242946;
   color: #D6D6D6;
 }
@@ -12,15 +12,64 @@ header {
 }
 
 p {
-  padding-left: 10px;
-  padding-right: 50px;
-  text-indent: 20px;
+  margin: 2em;
+  line-height: 1.5;
+  text-indent: 30pt;
 }
 
 #ingredients {
-  padding-left: 60px;
+  margin: 2em;
 }
 
 #Directions {
-  padding-left: 10px;
+  margin-left: 1em;
+}
+
+img {
+  width: auto;
+  height: 500pt;
+  opacity: 0.3;
+  padding: 0;
+  margin-top: 3em;
+}
+
+#over {
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align: center;
+    /*handles the horizontal centering*/
+}
+
+/*handles the vertical centering*/
+.Centerer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.Centered {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/*link options*/
+
+/*unvisited*/
+a:link {
+  color: #76D6FF;
+}
+/*visited*/
+a:visited {
+  color: #FFD479;
+}
+/*mouse over*/
+a:hover {
+  color: #73FDFF;
+}
+/*selected*/
+a:active {
+  color: #00FDFF;
 }
