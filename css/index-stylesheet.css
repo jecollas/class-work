@@ -12,6 +12,8 @@ header {
 
 h3 {
   margin-left: 2em;
+  font-size: 1.5em;
+
 }
 
 HR {
@@ -83,4 +85,9 @@ a:hover {
 /*selected*/
 a:active {
   color: #00FDFF;
+}
+
+.back-to-top {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
