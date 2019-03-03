@@ -1,2 +1,2 @@
-# project-1
-Work done for a class project. 
+# project-1 recipe
+HTML and CSS written for a recipe markup. GLOM! And How to Make It. 
