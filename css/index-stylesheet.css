@@ -35,7 +35,7 @@ li {
   margin: 2em;
 }
 
-#Directions {
+#directions {
   margin-left: 1em;
   margin-right: 2em;
 }
@@ -58,13 +58,13 @@ img {
 
 /*handles the vertical centering*/
 
-.Centerer {
+.centerer {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.Centered {
+.centered {
     display: inline-block;
     vertical-align: middle;
 }
@@ -94,3 +94,10 @@ a:active {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+@media (min-width: 60em) {
+  p {
+    display: inline-block;
+  }
+}
+  
